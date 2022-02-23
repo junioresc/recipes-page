@@ -16,7 +16,6 @@
             <ul>
                 <!--List item element-->
                 <li>
-                    <!--Anchor element-->
                     <a href ="./index.html">Home</a>
                 </li>
                 <li>
@@ -32,6 +31,48 @@
         </nav>
     </header>
     <main>
+        <section class="hero">
+            <div class="hero-cta">
+                <h2>Start Eating Healthier Today.</h2>
+                <p>
+                    Eating a healthy, balanced diet is an important part of maintaining good health, and can help you feel your best.
+                    This means eating a wide variety of foods in the right proportions, and consuming the right amount of food and drink to achieve and maintain a healthy body weight.
+                    People with special dietary needs or a medical condition should ask their doctor or a registered dietitian for advice.
+                </p>
+            </div>
+            <div class="hero-form">
+                <h3>Sign Up Today</h3>
+                <p>Fill out this form and receive tailored emails of what to cook</p>
+                <form>
+                    <label for="name">Enter Full Name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
+                    <label for="email">Enter Email Address:</label>
+                    <input type="email" placeholder="Your Email Address" name="email" id="email" class="form-input" />
+                    <label for="phone">Enter a Telephone Number:</label>
+                    <input type="tel" placeholder="Your Phone Number" name="phone" id="phone" class="form-input" />
+                    <p>
+                        Are you on a diet?
+                        <span class="radio-wrapper">
+                            <input type="radio" name="diet-confirm" id="diet-yes" />
+                            <label for="diet-yes">Yes</label>
+                        </span>
+                        <span class="radio-wrapper">
+                            <input type="radio" name="diet-confirm" id="diet-no" />
+                            <label for="diet-no">No</label>
+                        </span>
+                    </p>
+                    <p>
+                        <span class="checkbox-wrapper">
+                            <input type="checkbox" name="age-confirm" id="checkbox" />
+                            <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                        </span>
+                    </p>
+                    <button type="submit">
+                        Start Cooking!
+                    </button>
+                </form>
+            </div>
+        </section>
         <section id="recipes">
             <a href="recipes/lasagna.html">Lasagna</a>
         </section>
